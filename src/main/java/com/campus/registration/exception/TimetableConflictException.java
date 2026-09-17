@@ -1,0 +1,1 @@
+package com.campus.registration.exception; public class TimetableConflictException extends Exception{public TimetableConflictException(String m){super(m);}}
