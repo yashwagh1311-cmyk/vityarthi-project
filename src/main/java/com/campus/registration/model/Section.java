@@ -1,0 +1,1 @@
+package com.campus.registration.model; public record Section(String courseCode,String section,String day,int start,int end,String room){public boolean overlaps(Section o){return day.equalsIgnoreCase(o.day)&&start<o.end&&o.start<end;}}
