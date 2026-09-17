@@ -1,0 +1,1 @@
+package com.campus.registration.model; public record Student(String id,String name,String program,int semester) {}
