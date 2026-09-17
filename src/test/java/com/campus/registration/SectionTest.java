@@ -1,0 +1,1 @@
+package com.campus.registration; import com.campus.registration.model.*; import org.junit.jupiter.api.Test; import static org.junit.jupiter.api.Assertions.*; class SectionTest{@Test void differentDaysDoNotClash(){assertFalse(new Section("A","1","MON",9,11,"R").overlaps(new Section("B","1","TUE",9,11,"R")));}}
