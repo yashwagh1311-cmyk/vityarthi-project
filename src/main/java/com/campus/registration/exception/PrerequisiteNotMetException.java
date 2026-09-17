@@ -1,0 +1,1 @@
+package com.campus.registration.exception; public class PrerequisiteNotMetException extends Exception{public PrerequisiteNotMetException(String m){super(m);}}
