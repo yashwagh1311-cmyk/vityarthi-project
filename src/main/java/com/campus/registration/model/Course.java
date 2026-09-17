@@ -1,0 +1,1 @@
+package com.campus.registration.model; import java.util.*; public record Course(String code,String name,int credits,int capacity,List<String> prerequisites){public Course{prerequisites=List.copyOf(prerequisites);}}
