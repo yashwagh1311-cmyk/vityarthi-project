@@ -1,0 +1,1 @@
+package com.campus.registration.exception; public class SeatFullException extends Exception{public SeatFullException(String m){super(m);}}
